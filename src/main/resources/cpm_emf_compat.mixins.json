@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "dev.cpmemfcompat.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "cpm_emf_compat.refmap.json",
+  "client": [
+    "LivingEntityRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

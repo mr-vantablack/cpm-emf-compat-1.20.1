@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: CPM + EMF Animation Compat
+Specification-Vendor: cpm-emf-compat
+Specification-Version: 1
+Implementation-Title: cpm-emf-compat-1.20.1
+Implementation-Version: 0.3.0
+Implementation-Vendor: cpm-emf-compat
+MixinConfigs: cpm_emf_compat.mixins.json
+

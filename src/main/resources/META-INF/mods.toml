@@ -1,0 +1,42 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+displayTest="IGNORE_SERVER_VERSION"
+authors="Mr. Vantablack"
+description='''
+Lets EMF / resource-pack player animations become the base pose for Customizable Player Models.
+CPM animations are then applied on top of that pose.
+'''
+
+[[dependencies.${mod_id}]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.${mod_id}]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20,1.20.2)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.${mod_id}]]
+modId="cpm"
+mandatory=true
+versionRange="[0.6.20,)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.${mod_id}]]
+modId="entity_model_features"
+mandatory=true
+versionRange="[3.0.0,)"
+ordering="NONE"
+side="CLIENT"
